@@ -2,6 +2,11 @@ import dataclasses
 
 @dataclasses.dataclass
 class Data:
+    """
+    A Pythonic data model class with to_dict and from_dict methods,
+    ability to instantiate directly from the class, default value, autocomplete,
+    dynamic and general usability for the class, and ability to reflect inner value on the main level.
+    """
     id: str = "1"
     name: str = "first"
     size: float = 10.7
