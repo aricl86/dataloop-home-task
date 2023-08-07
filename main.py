@@ -1,6 +1,6 @@
-import dataclasses
+from dataclasses import dataclass
 
-@dataclasses.dataclass
+@dataclass
 class Data:
     """
     A Pythonic data model class with to_dict and from_dict methods,
